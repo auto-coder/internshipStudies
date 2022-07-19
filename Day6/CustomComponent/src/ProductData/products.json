@@ -1,0 +1,42 @@
+  
+
+    [
+
+    {
+        "id":1,
+        "name": "Süpürge",
+        "image":"https://www.korkmazstore.com.tr/korkmaz-tempratik-dikey-azurasiyah-elektrikli-supurge-a920-05-elektrikli-supurgeler-9437-85-B.jpg",
+        "price": "299 TL"
+    },
+    {        
+        "id":2,
+        "name": "Kalem",
+        "image":"https://iet-cdn-006.akinsofteticaret.net/ozifo.com/Resim/Minik/1500x1500_thumb_8690826211104.jpg",
+        "price": "33 TL"
+    },
+    {
+        "id":3,
+        "name": "Çanta",
+        "image":"https://cdn.lutvelizade.com.tr/gorseller/kisa-zincir-detayli-capraz-bej-kadin-canta-4.jpg",
+        "price": "99 TL"
+    },
+    {
+        "id":4,
+        "name": "Ayakkabı",
+        "image":"https://ayb.akinoncdn.com/products/2022/03/04/91160/fdc56e74-ac10-445b-a4d2-9d5109c2b18e_size780x780_quality60_cropCenter.jpg",
+        "price": "498 TL"
+    } ,
+    {
+        "id":5,
+        "name": "Mouse",
+        "image":"https://productimages.hepsiburada.net/s/35/1500/10471209467954.jpg",
+        "price": "199 TL"
+    },
+    {
+        "id":6,
+        "name": "Klavye",
+        "image":"https://productimages.hepsiburada.net/s/35/1500/10471208747058.jpg",
+        "price": "899 TL"
+    }
+  
+   ]
