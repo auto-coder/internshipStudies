@@ -1,0 +1,18 @@
+{
+  "name": "turkeyciti",
+  "version": "1.0.0",
+  "description": "Türkiye Şehir Listesi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo\"Error: no test \" && exit 1"
+  },
+  "keywords": [
+    "turkiye",
+    "sehir",
+    "iller",
+    "liste",
+    "plakalar"
+  ],
+  "author": "Ahmet",
+  "license": "ISC"
+}
