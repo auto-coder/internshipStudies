@@ -28,11 +28,10 @@ const App = () => {
 
   return (
     <View >
-  
     <FlatList
-    keyExtractor={item=>item.id}
-    data={list}
-    renderItem ={rendered}
+        keyExtractor={item=>item.id}
+        data={list}
+        renderItem ={rendered}
     />
     </View>
   );
