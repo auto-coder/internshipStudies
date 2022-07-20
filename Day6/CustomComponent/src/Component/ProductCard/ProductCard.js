@@ -2,7 +2,7 @@ import React from 'react';
 import {Image, Text, View,TouchableOpacity} from 'react-native';
 import styles from './ProductCard.style';
 
-const ProductCard = ({product}) => {
+const ProductCard = ({product,onPress}) => {
   return (
     <View style={styles.container} >
         <Image
@@ -15,7 +15,7 @@ const ProductCard = ({product}) => {
       </View>
       <TouchableOpacity
         style={styles.buyButton}
-        onPress={()=>{console.log("Sepete Eklendi")}}
+        onPress={onPress}
       >
         <Text style={styles.buyText}>Sepete Ekle</Text>
       </TouchableOpacity>
