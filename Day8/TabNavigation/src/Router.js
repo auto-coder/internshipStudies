@@ -41,7 +41,7 @@ function MyTabs() {
           iconName = focused
             ? 'nutrition'
             : 'nutrition-outline';
-        } else if (route.name === 'Settings') {
+        } else if (route.name=== 'Settings') {
           iconName = focused ? 'ios-information-circle-sharp' : 'ios-information-circle-outline';
         }
 
