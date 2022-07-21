@@ -8,3 +8,4 @@ npm start
 npx react-native run-android
 ```
 
+![alt text](https://i.hizliresim.com/knf5wc4.PNG)
