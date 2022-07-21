@@ -1,6 +1,6 @@
 # Drawer Navigation Example
 
-### Kurulum
+### Installation
 Clone'ladıktan sonra sağlıklı bir şekilde çalıştırmak için sırasıyla terminale aşağıdaki komutları yazalım:
 ```
 npm install  
