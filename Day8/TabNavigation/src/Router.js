@@ -55,7 +55,7 @@ function MyTabs() {
       <Tab.Screen name="Home" component={HomeStackScreen} />
       <Tab.Screen name="Settings" component={SettingsStackScreen} options={
         { 
-          tabBarBadge: "Waiting!",
+          tabBarBadge: 2,
           tabBarBadgeStyle:{ backgroundColor: '#16b' }
         }
         } />
