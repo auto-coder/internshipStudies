@@ -7,18 +7,18 @@ const ProductCard = ({product}) => {
     <View style={styles.container} >
         <Image
         style={styles.image}
-        source={{uri: product.url}}
+        source={{uri: product.thumbnailUrl}}
       />  
       <View style={styles.inner_container}>
         <Text style={styles.name}>{product.id}</Text>
         <Text style={styles.price}>{product.title}</Text>
       </View>
-      {/* <TouchableOpacity
+      <TouchableOpacity
         style={styles.buyButton}
         onPress={()=>{console.log("Sepete Eklendi")}}
       >
         <Text style={styles.buyText}>Sepete Ekle</Text>
-      </TouchableOpacity> */}
+      </TouchableOpacity>
     </View>
   );
 };

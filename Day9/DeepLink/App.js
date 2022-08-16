@@ -3,8 +3,6 @@ import { Alert, Button, Linking, StyleSheet, View } from "react-native";
 
 const supportedURL = "https://www.google.com/";
 
-const unsupportedURL = "https://www.google.com/";
-
 const OpenURLButton = ({ url, children }) => {  
   const handlePress = useCallback(async () => {
     // Checking if the link is supported for links with custom URL scheme.
@@ -25,8 +23,8 @@ const OpenURLButton = ({ url, children }) => {
 const App = () => {
   return (
     <View style={styles.container}>
-      <OpenURLButton url={supportedURL}>Open Supported URL</OpenURLButton>
-      <OpenURLButton url={unsupportedURL}>Open Unsupported URL</OpenURLButton>
+      <OpenURLButton url={supportedURL}>Go Google.com</OpenURLButton>
+      
     </View>
   );
 };

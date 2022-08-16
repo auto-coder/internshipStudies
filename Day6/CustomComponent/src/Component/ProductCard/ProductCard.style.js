@@ -40,7 +40,7 @@ export default StyleSheet.create({
     backgroundColor:'#EDE6DB',
     borderRadius:10,    
     height:30,
-    width:100,
+    width:133,
 
   },
   buyText: {

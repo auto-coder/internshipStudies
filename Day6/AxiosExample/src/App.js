@@ -18,7 +18,7 @@ const App = () => {
     .get(`${baseURL}`)
     .then(function (response) {
      setList(response.data)
-     console.log(response.data)
+   
     })
     .catch(function (error) {
       console.log(`${error} Bir Hata Oluştu`);

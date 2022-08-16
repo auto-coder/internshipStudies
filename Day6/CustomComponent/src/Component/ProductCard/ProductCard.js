@@ -17,7 +17,7 @@ const ProductCard = ({product,onPress}) => {
         style={styles.buyButton}
         onPress={onPress}
       >
-        <Text style={styles.buyText}>Sepete Ekle</Text>
+        <Text style={styles.buyText}>Sepete Ekle ve Git</Text>
       </TouchableOpacity>
     </View>
   );

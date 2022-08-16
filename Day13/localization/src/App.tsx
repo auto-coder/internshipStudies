@@ -28,7 +28,7 @@ const Hello: React.FC<Props> = ({
   return (
     <View style={styles.container}>
       <Text style={styles.greeting}>
-      {I18n.t('hi', {locale: 'ar'})} 
+      {I18n.t('hi', {locale: 'en'})} 
       {name} 
       {getExclamationMarks(enthusiasmLevel)}</Text>
       <View>
@@ -64,3 +64,17 @@ const styles = StyleSheet.create({
 });
 
 export default Hello;
+
+
+// const Hello = () =>{
+
+//   return (
+//     <View style={styles.container}>
+    
+//       <Text style={styles.greeting}>
+//         {I18n.t('hi', {locale: 'ar'})} 
+//       </Text>
+
+//     </View>
+//   );
+// };
