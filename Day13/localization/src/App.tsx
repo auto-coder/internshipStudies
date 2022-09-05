@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Button, StyleSheet, Text, View } from 'react-native';
 import I18n from './lang/_i18n';
 
@@ -15,6 +15,8 @@ const Hello: React.FC<Props> = ({
     baseEnthusiasmLevel
   );
 
+  const [lang,setLang]=useState('en')
+
   const onIncrement = () =>
     setEnthusiasmLevel(enthusiasmLevel + 1);
   const onDecrement = () =>
@@ -28,20 +30,26 @@ const Hello: React.FC<Props> = ({
   return (
     <View style={styles.container}>
       <Text style={styles.greeting}>
-      {I18n.t('hi', {locale: 'en'})} 
+      {I18n.t('hi', {locale: lang})} 
       {name} 
       {getExclamationMarks(enthusiasmLevel)}</Text>
       <View>
         <Button
-          title="Increase enthusiasm"
+          title="İngilizce Diline Çevir"
           accessibilityLabel="increment"
-          onPress={onIncrement}
+          onPress={()=>setLang('en')}
           color="blue"
         />
         <Button
-          title="Decrease enthusiasm"
+          title="Türkçe Diline Çevir "
+          accessibilityLabel="increment"
+          onPress={()=>setLang('tr')}
+          color="black"
+        />
+        <Button
+          title="Arapça Diline Çevir"
           accessibilityLabel="decrement"
-          onPress={onDecrement}
+          onPress={()=>setLang('ar')}
           color="red"
         />
         
